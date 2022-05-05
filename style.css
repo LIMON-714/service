@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform:capitalize;
+}
+body{
+     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+     background-image: url(images/1we.webp);
+     background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+   
+
+}
+
+
+.nav-back{
+    background: rgba(17, 219, 207,0.8);
+    color: #fff;
+}
+.nav-back:hover{
+  box-shadow: 0 3px 6px 0 rgb(63, 63, 63);
+
+}
+.navbar-brand{
+  color: #000;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.nav-link{
+  color: #000;
+}
+.nav-link:hover{
+  color:#fff;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+
+
+
+
+
+
+
+
+.services{
+    margin: 90px auto;
+    color: #091921; 
+    text-align: center;
+}
+.services h1{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.services h1:after{
+    content: " ";
+    background:#192f31;
+    display: block;
+    width: 180px;
+    height:2px;
+    margin: 10px auto;
+}
+.icon{
+    font-size: 40px;
+    margin:20px auto;
+    padding:20px;
+    height: 80px;
+    width: 90px;
+    border: 1px solid #091921;
+    border-radius:50%;
+    color: rgb(63, 59, 59);
+}
+.col-md-3{
+    transition: all 0.5s;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.col-md-3:hover{
+    box-shadow: 5px 7px 9px -3px #091921;
+    transition: all 0.5s;
+}
+
+.limon{
+  text-align:center;
+  opacity: 0.7;
+  font-style: inherit;
+  margin-top: 90px;
+}
